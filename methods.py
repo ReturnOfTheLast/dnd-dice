@@ -44,10 +44,8 @@ def roll_groups(dgs: list) -> list:
         except IndexError:
             c = ""
 
-        t = roll(n, s)
+        t = roll(n, s, m)
 
         r.append((t, c))
 
     return r
-
-
